@@ -20,7 +20,14 @@
 		<div class="col-sm-7 col-md-5">
 			<!-- sm ไว้สำหรับปรับ tablet -->
 			<div class="panel panel-primary">
-				<div class="panel-heading">ลงชื่อเข้าใช้ระบบ</div>
+				<div class="panel-heading">
+				<div class="clearfix"><!-- ทำให้หัว มีขนาดที่คลุมข้อความได้พอดี -->
+					<div class="pull-left">ลงทะเบียนเข้าใช้ระบบ</div>
+					<div class="pull-right">
+						<a href="register.html"><span class="glyphicon glyphicon-plus"></span>สมัครสมาชิกใหม่</a>
+					</div>
+				</div>
+				</div>
 				<div class="panel-body">
 					<form role="form">
 						<div class="form-group">
@@ -33,7 +40,7 @@
 								type="password" class="form-control" id="exampleInputPassword1"
 								placeholder="Password">
 						</div>
-						
+
 						<button type="submit" class="btn btn-primary btn-lg btn-block">Submit</button>
 					</form>
 
