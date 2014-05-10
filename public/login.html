@@ -15,14 +15,33 @@
 </head>
 <body>
 	<div class="container">
-		<div class="col-sm-2 col-md-3"></div><!-- สร้าง col ฝั่งซ้ายเป็นช่องว่าง  md=midium -->
-		<div class="col-sm-7 col-md-5"> <!-- sm ไว้สำหรับปรับ tablet -->
+		<div class="col-sm-2 col-md-3"></div>
+		<!-- สร้าง col ฝั่งซ้ายเป็นช่องว่าง  md=midium -->
+		<div class="col-sm-7 col-md-5">
+			<!-- sm ไว้สำหรับปรับ tablet -->
 			<div class="panel panel-primary">
 				<div class="panel-heading">ลงชื่อเข้าใช้ระบบ</div>
-				<div class="panel-body">Panel content</div>
+				<div class="panel-body">
+					<form role="form">
+						<div class="form-group">
+							<label for="exampleInputEmail1">Email address</label> <input
+								type="email" class="form-control" id="exampleInputEmail1"
+								placeholder="Enter email">
+						</div>
+						<div class="form-group">
+							<label for="exampleInputPassword1">Password</label> <input
+								type="password" class="form-control" id="exampleInputPassword1"
+								placeholder="Password">
+						</div>
+						
+						<button type="submit" class="btn btn-primary btn-lg btn-block">Submit</button>
+					</form>
+
+				</div>
 			</div>
 		</div>
 		<div class="cal-sm-3 col-md-4"></div>
+		<!-- สร้าง col ฝั่งขวาเป็นช่องว่าง  -->
 	</div>
 </body>
 </html>
