@@ -1,4 +1,4 @@
 <?php
 	echo "Hello index";
-	echo "Hello Rawee";
+	echo "Hello PHP by YingRawee";
 ?>
