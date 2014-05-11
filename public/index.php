@@ -1,4 +1,5 @@
 <?php
 echo "Hello index";
-echo "Hello Team 2";
+echo "Hello PHP";
+echo "Hello Team 2"; 
 ?>
