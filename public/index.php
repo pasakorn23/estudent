@@ -1,5 +1,6 @@
 <?php
 echo "Hello index";
+echo "Hello PHP";
 echo "Hello PHP by YingRawee";
-echo "Hello PHP by wannapong";
+echo "Hello Team 2"; 
 ?>
